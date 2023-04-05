@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Tintu_Thampi/IdeaProjects/PetStoreProject/src/test/java/api/tests">
+        <classes>
+            <class name="api.tests.DDTests">
+                <methods>
+                    <include name="testPostUser"/>
+                    <include name="testDeleteUser"/>
+                </methods>
+            </class>
+            <class name="api.tests.UserTests">
+                <methods>
+                    <include name="testPostUser"/>
+                    <include name="testGetUser"/>
+                    <include name="testUpdateUser"/>
+                    <include name="testDeleteUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
